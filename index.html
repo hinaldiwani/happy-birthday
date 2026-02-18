@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Cake</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Birthday Song Audio -->
+    <audio id="birthdaySong" loop>
+        <source src="happy-birthday.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Click to Start Overlay -->
+    <div class="start-overlay" id="startOverlay">
+        <div class="start-button">🎂 Click to Start 🎉</div>
+    </div>
+
+    <div class="hero-section">
+        <!-- Happy Birthday Text -->
+        <div class="birthday-text" id="birthdayText">HAPPY BIRTHDAY</div>
+
+        <!-- Cake -->
+        <div class="cake-container">
+            <!-- Ambient Glow -->
+            <div class="ambient-glow" id="ambientGlow"></div>
+
+            <div class="cake">
+                <!-- Bottom Tier (Largest) -->
+                <div class="cake-tier tier-1">
+                    <div class="drip" style="left: 10%"></div>
+                    <div class="drip" style="left: 25%"></div>
+                    <div class="drip" style="left: 40%"></div>
+                    <div class="drip" style="left: 55%"></div>
+                    <div class="drip" style="left: 70%"></div>
+                    <div class="drip" style="left: 85%"></div>
+                    <div class="sprinkle" style="top: 30%; left: 15%"></div>
+                    <div class="sprinkle" style="top: 45%; left: 35%"></div>
+                    <div class="sprinkle" style="top: 60%; left: 20%"></div>
+                    <div class="sprinkle" style="top: 40%; left: 70%"></div>
+                    <div class="sprinkle" style="top: 55%; left: 85%"></div>
+                </div>
+                <!-- Top Tier -->
+                <div class="cake-tier tier-2">
+                    <div class="drip" style="left: 15%"></div>
+                    <div class="drip" style="left: 35%"></div>
+                    <div class="drip" style="left: 55%"></div>
+                    <div class="drip" style="left: 75%"></div>
+                    <div class="sprinkle" style="top: 35%; left: 25%"></div>
+                    <div class="sprinkle" style="top: 50%; left: 50%"></div>
+                    <div class="sprinkle" style="top: 45%; left: 80%"></div>
+                </div>
+
+                <!-- Multiple Candles on Top -->
+                <div class="candles-holder">
+                    <div class="candle">
+                        <div class="flame" id="flame1"></div>
+                    </div>
+                    <div class="candle">
+                        <div class="flame" id="flame2"></div>
+                    </div>
+                    <div class="candle">
+                        <div class="flame" id="flame3"></div>
+                    </div>
+                    <div class="candle">
+                        <div class="flame" id="flame4"></div>
+                    </div>
+                    <div class="candle">
+                        <div class="flame" id="flame5"></div>
+                    </div>
+                    <div class="candle">
+                        <div class="flame" id="flame6"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="table"></div>
+        </div>
+    </div>
+
+    <!-- Letter Scroll with Ribbon -->
+    <div class="letter-container" id="letterContainer">
+        <div class="letter-scroll" id="letterScroll">
+            <div class="letter-ribbon" id="letterRibbon">
+                <div class="ribbon-text">Click to Open</div>
+            </div>
+            <div class="letter-content">
+                <h2>Happy Birthday, Handsome ❤️</h2>
+                <p>So… how does it feel to be a year older and still completely stealing my heart? Honestly, you should
+                    come with a warning label: <em>Highly Charming. Causes Smiles. Impossible to Forget.</em></p>
+                <p>I don't know how I got so lucky to have you, but I'm definitely not questioning it. You make my bad
+                    days better, my good days brighter, and my heart way too attached to you. And yes, I'm totally okay
+                    with that.</p>
+                <p>Thank you for being my favorite person to annoy, laugh with, talk to, and secretly admire all the
+                    time. You're my comfort, my safe place, and my biggest flex.</p>
+                <p>On your birthday, I just want you to remember how special you are — not just today, but every single
+                    day. You deserve all the love, all the happiness, and all the cake (but you still have to share with
+                    me 😌).</p>
+                <p><strong>Happy Birthday to the boy who owns my heart.</strong></p>
+                <p>Stay cute. Stay amazing. Stay mine. 💋</p>
+                <p class="signature">Forever yours ❤️</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gift Box -->
+    <div class="gift-box" id="giftBox">
+        <div class="gift-lid" id="giftLid">
+            <div class="gift-bow"></div>
+            <div class="gift-bow-knot"></div>
+        </div>
+        <div class="gift-body">
+            <div class="gift-ribbon-v"></div>
+            <div class="gift-ribbon-h"></div>
+        </div>
+    </div>
+
+    <!-- Gift Box Instruction Text -->
+    <div class="gift-box-text" id="giftBoxText">Open the Gift Box</div>
+
+    <!-- Confetti Container -->
+    <div class="confetti-container" id="confettiContainer"></div>
+
+    <!-- Final Couple GIF -->
+    <div class="final-couple-gif" id="finalCoupleGif">
+        <h1 class="love-text">I LOVE YOU</h1>
+        <img src="couple-kisses.gif" alt="Couple Kisses">
+    </div>
+
+    <!-- Couple Emojis around Gift Box -->
+    <div class="couple-gif-container" id="coupleGifContainer">
+        <div class="couple-emoji left">🥰</div>
+        <div class="couple-emoji right">😘</div>
+        <div class="couple-hearts">
+            <div class="heart">💕</div>
+            <div class="heart">💝</div>
+            <div class="heart">💖</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
