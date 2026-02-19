@@ -90,6 +90,37 @@ body::before {
     transition: opacity 3s ease-in-out, background-image 3s ease-in-out;
 }
 
+/* Warning Text Styles */
+.warning-text {
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-150px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.8s ease-out;
+    z-index: 1000;
+}
+
+.warning-text.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+.warning-content {
+    background: linear-gradient(135deg, #ff69b4, #ff1493);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 10px 40px rgba(255, 20, 147, 0.5);
+    animation: pulse 2s ease-in-out infinite;
+    text-align: center;
+    border: 3px solid white;
+}
+
 body::after {
     content: '💝 🎈 🎂 🎉 ✨ 🎁 🎊 💖 🌟 🎈 🎂 💝';
     position: absolute;
@@ -733,7 +764,7 @@ body.dark .birthday-text {
 
 .letter-scroll.opened {
     width: 500px;
-    height: 600px;
+    height: 500px;
     border-radius: 15px;
     overflow-y: auto;
     scrollbar-width: none;
@@ -815,7 +846,7 @@ body.dark .birthday-text {
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 40px 35px;
+    padding: 25px 30px;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.8s ease 0.5s;
@@ -841,17 +872,17 @@ body.dark .birthday-text {
 
 .letter-content h2 {
     color: #d62828;
-    font-size: 26px;
-    margin-bottom: 20px;
+    font-size: 22px;
+    margin-bottom: 12px;
     font-family: 'Brush Script MT', cursive;
     text-align: center;
 }
 
 .letter-content p {
     color: #333;
-    font-size: 15px;
-    line-height: 1.7;
-    margin: 12px 0;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 8px 0;
     font-family: 'Georgia', serif;
     text-align: left;
 }
@@ -867,10 +898,10 @@ body.dark .birthday-text {
 }
 
 .letter-content .signature {
-    margin-top: 30px;
+    margin-top: 15px;
     font-style: italic;
     color: #d62828;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 @keyframes fadeInBounce {

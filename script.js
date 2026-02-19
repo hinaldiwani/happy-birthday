@@ -77,7 +77,17 @@ document.getElementById('letterRibbon').addEventListener('click', () => {
     setTimeout(() => {
         scroll.classList.add('opened');
 
-        // After letter is read (1 minute), show gift box
+        // Show warning after 30 seconds
+        setTimeout(() => {
+            document.getElementById('warningText').classList.add('show');
+
+            // Hide warning after 3 seconds
+            setTimeout(() => {
+                document.getElementById('warningText').classList.remove('show');
+            }, 3000);
+        }, 30000);
+
+        // After letter is read (40 seconds), show gift box
         setTimeout(() => {
             document.getElementById('letterContainer').style.opacity = '0';
             setTimeout(() => {
@@ -85,7 +95,7 @@ document.getElementById('letterRibbon').addEventListener('click', () => {
                 document.getElementById('giftBox').classList.add('show');
                 document.getElementById('coupleGifContainer').classList.add('show');
             }, 800);
-        }, 60000);
+        }, 40000);
     }, 500);
 });
 
