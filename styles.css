@@ -1270,62 +1270,80 @@ body.dark .birthday-text {
 
     /* Gift Box */
     .gift-box {
-        width: 180px;
-        height: 180px;
+        width: 200px;
+        height: 220px;
+        top: 60%;
     }
 
     .gift-lid {
-        height: 65px;
+        height: 70px;
+        width: 200px;
+        left: 0;
+        top: -35px;
     }
 
     .gift-body {
-        height: 115px;
+        width: 200px;
+        height: 150px;
     }
 
     .gift-bow {
-        width: 50px;
-        height: 30px;
+        width: 55px;
+        height: 32px;
+        top: -25px;
     }
 
     .gift-bow::before,
     .gift-bow::after {
-        width: 42px;
-        height: 42px;
+        width: 45px;
+        height: 45px;
     }
 
     .gift-bow-knot {
-        width: 20px;
-        height: 20px;
+        width: 22px;
+        height: 22px;
     }
 
     .gift-ribbon-v {
-        width: 18px;
+        width: 20px;
     }
 
     .gift-ribbon-h {
-        height: 18px;
+        height: 20px;
     }
 
     .gift-box-text {
-        font-size: 18px;
-        bottom: 70px;
+        font-size: 20px;
+        top: 80%;
     }
 
     /* Couple Emojis */
+    .couple-gif-container {
+        width: 100%;
+        height: 100%;
+    }
+
     .couple-emoji {
-        font-size: 50px;
+        font-size: 55px;
     }
 
     .couple-emoji.left {
-        left: 10%;
+        left: 8%;
+        top: 60%;
     }
 
     .couple-emoji.right {
-        right: 10%;
+        right: 8%;
+        top: 60%;
+    }
+
+    .couple-hearts {
+        top: 30%;
+        gap: 15px;
     }
 
     .couple-hearts .heart {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     /* Final Couple GIF */
@@ -1429,21 +1447,42 @@ body.dark .birthday-text {
     }
 
     .gift-box {
-        width: 160px;
-        height: 160px;
+        width: 180px;
+        height: 200px;
+        top: 60%;
     }
 
     .gift-lid {
-        height: 55px;
+        height: 60px;
+        width: 180px;
+        left: 0;
+        top: -30px;
     }
 
     .gift-body {
-        height: 105px;
+        width: 180px;
+        height: 140px;
+    }
+
+    .gift-bow {
+        top: -22px;
     }
 
     .gift-box-text {
-        font-size: 16px;
-        bottom: 60px;
+        font-size: 18px;
+        top: 80%;
+    }
+
+    .couple-emoji {
+        font-size: 50px;
+    }
+
+    .couple-emoji.left {
+        left: 5%;
+    }
+
+    .couple-emoji.right {
+        right: 5%;
     }
 
     .final-couple-gif img {
