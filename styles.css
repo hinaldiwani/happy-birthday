@@ -855,15 +855,29 @@ body.dark .birthday-text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    scrollbar-width: none;
+    scrollbar-width: thin;
+    scrollbar-color: #ff69b4 transparent;
     /* Firefox */
-    -ms-overflow-style: none;
+    -ms-overflow-style: auto;
     /* IE and Edge */
 }
 
 .letter-content::-webkit-scrollbar {
-    display: none;
+    width: 6px;
     /* Chrome, Safari, Opera */
+}
+
+.letter-content::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.letter-content::-webkit-scrollbar-thumb {
+    background: #ff69b4;
+    border-radius: 3px;
+}
+
+.letter-content::-webkit-scrollbar-thumb:hover {
+    background: #ff1493;
 }
 
 .letter-scroll.opened .letter-content {
@@ -1215,23 +1229,23 @@ body.dark .birthday-text {
     }
 
     .letter-content {
-        padding: 25px 30px;
+        padding: 20px 25px;
     }
 
     .letter-content h2 {
-        font-size: 24px;
-        margin-bottom: 12px;
+        font-size: 22px;
+        margin-bottom: 10px;
     }
 
     .letter-content p {
-        font-size: 14px;
-        line-height: 1.5;
-        margin: 8px 0;
+        font-size: 13px;
+        line-height: 1.45;
+        margin: 6px 0;
     }
 
     .letter-content .signature {
-        margin-top: 15px;
-        font-size: 16px;
+        margin-top: 12px;
+        font-size: 15px;
     }
 
     .letter-ribbon {
@@ -1386,20 +1400,23 @@ body.dark .birthday-text {
     }
 
     .letter-content {
-        padding: 20px 25px;
+        padding: 18px 22px;
     }
 
     .letter-content h2 {
-        font-size: 22px;
+        font-size: 20px;
+        margin-bottom: 8px;
     }
 
     .letter-content p {
-        font-size: 13px;
-        line-height: 1.45;
+        font-size: 12.5px;
+        line-height: 1.4;
+        margin: 5px 0;
     }
 
     .letter-content .signature {
-        font-size: 15px;
+        margin-top: 10px;
+        font-size: 14px;
     }
 
     .warning-content {
