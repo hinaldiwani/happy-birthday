@@ -1162,33 +1162,33 @@ body.dark .birthday-text {
     /* Hero Section */
     .hero-section {
         flex-direction: column;
-        padding: 0 20px;
-        gap: 30px;
+        padding: 0 15px;
+        gap: 20px;
         justify-content: center;
     }
 
     /* Birthday Text */
     .birthday-text {
-        font-size: 48px;
-        letter-spacing: 6px;
-        max-width: 90%;
+        font-size: 36px;
+        letter-spacing: 4px;
+        max-width: 95%;
         padding: 10px;
     }
 
     /* Cake */
     .tier-1 {
-        width: 200px;
-        height: 80px;
+        width: 220px;
+        height: 85px;
     }
 
     .tier-2 {
-        width: 150px;
-        height: 70px;
+        width: 170px;
+        height: 75px;
     }
 
     .candles-holder {
         top: -45px;
-        gap: 12px;
+        gap: 14px;
     }
 
     .candle {
@@ -1203,34 +1203,35 @@ body.dark .birthday-text {
 
     /* Letter Container */
     .letter-scroll {
-        width: 60px;
-        height: 200px;
+        width: 70px;
+        height: 220px;
     }
 
     .letter-scroll.opened {
-        width: 90vw;
-        max-width: 400px;
-        height: 450px;
+        width: 92vw;
+        max-width: 450px;
+        height: 70vh;
+        max-height: 550px;
     }
 
     .letter-content {
-        padding: 20px 25px;
+        padding: 25px 30px;
     }
 
     .letter-content h2 {
-        font-size: 20px;
-        margin-bottom: 10px;
+        font-size: 24px;
+        margin-bottom: 12px;
     }
 
     .letter-content p {
-        font-size: 12px;
-        line-height: 1.4;
-        margin: 6px 0;
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 8px 0;
     }
 
     .letter-content .signature {
-        margin-top: 12px;
-        font-size: 14px;
+        margin-top: 15px;
+        font-size: 16px;
     }
 
     .letter-ribbon {
@@ -1255,62 +1256,62 @@ body.dark .birthday-text {
 
     /* Gift Box */
     .gift-box {
-        width: 140px;
-        height: 140px;
+        width: 180px;
+        height: 180px;
     }
 
     .gift-lid {
-        height: 50px;
+        height: 65px;
     }
 
     .gift-body {
-        height: 90px;
+        height: 115px;
     }
 
     .gift-bow {
-        width: 40px;
-        height: 25px;
+        width: 50px;
+        height: 30px;
     }
 
     .gift-bow::before,
     .gift-bow::after {
-        width: 35px;
-        height: 35px;
+        width: 42px;
+        height: 42px;
     }
 
     .gift-bow-knot {
-        width: 16px;
-        height: 16px;
+        width: 20px;
+        height: 20px;
     }
 
     .gift-ribbon-v {
-        width: 15px;
+        width: 18px;
     }
 
     .gift-ribbon-h {
-        height: 15px;
+        height: 18px;
     }
 
     .gift-box-text {
-        font-size: 16px;
-        bottom: 60px;
+        font-size: 18px;
+        bottom: 70px;
     }
 
     /* Couple Emojis */
     .couple-emoji {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .couple-emoji.left {
-        left: 15%;
+        left: 10%;
     }
 
     .couple-emoji.right {
-        right: 15%;
+        right: 10%;
     }
 
     .couple-hearts .heart {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     /* Final Couple GIF */
@@ -1332,7 +1333,7 @@ body.dark .birthday-text {
 
     /* Table */
     .table {
-        width: 280px;
+        width: 300px;
         height: 15px;
     }
 }
@@ -1349,54 +1350,56 @@ body.dark .birthday-text {
     }
 
     .birthday-text {
-        font-size: 32px;
-        letter-spacing: 4px;
+        font-size: 28px;
+        letter-spacing: 3px;
     }
 
     .tier-1 {
-        width: 160px;
-        height: 65px;
+        width: 180px;
+        height: 70px;
     }
 
     .tier-2 {
-        width: 120px;
-        height: 60px;
+        width: 140px;
+        height: 65px;
     }
 
     .candles-holder {
-        top: -35px;
-        gap: 10px;
+        top: -38px;
+        gap: 11px;
     }
 
     .candle {
-        width: 8px;
-        height: 35px;
+        width: 9px;
+        height: 38px;
     }
 
     .flame {
-        width: 15px;
-        height: 24px;
+        width: 16px;
+        height: 26px;
     }
 
     .letter-scroll.opened {
-        width: 90vw;
-        height: 400px;
+        width: 92vw;
+        height: 65vh;
+        max-height: 500px;
     }
 
     .letter-content {
-        padding: 15px 20px;
+        padding: 20px 25px;
     }
 
     .letter-content h2 {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .letter-content p {
-        font-size: 11px;
+        font-size: 13px;
+        line-height: 1.45;
     }
 
     .letter-content .signature {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .warning-content {
@@ -1405,21 +1408,21 @@ body.dark .birthday-text {
     }
 
     .gift-box {
-        width: 120px;
-        height: 120px;
+        width: 160px;
+        height: 160px;
     }
 
     .gift-lid {
-        height: 40px;
+        height: 55px;
     }
 
     .gift-body {
-        height: 80px;
+        height: 105px;
     }
 
     .gift-box-text {
-        font-size: 14px;
-        bottom: 50px;
+        font-size: 16px;
+        bottom: 60px;
     }
 
     .final-couple-gif img {
