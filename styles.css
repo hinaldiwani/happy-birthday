@@ -1142,3 +1142,317 @@ body.dark .birthday-text {
         opacity: 0;
     }
 }
+
+/* Responsive Styles for Mobile Devices */
+@media screen and (max-width: 768px) {
+    body::after {
+        font-size: 20px;
+        letter-spacing: 15px;
+        top: 10px;
+    }
+
+    /* Start Button */
+    .start-button {
+        font-size: 32px;
+        padding: 20px 40px;
+        border-radius: 40px;
+        border: 3px solid #ff69b4;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        flex-direction: column;
+        padding: 0 20px;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    /* Birthday Text */
+    .birthday-text {
+        font-size: 48px;
+        letter-spacing: 6px;
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    /* Cake */
+    .tier-1 {
+        width: 200px;
+        height: 80px;
+    }
+
+    .tier-2 {
+        width: 150px;
+        height: 70px;
+    }
+
+    .candles-holder {
+        top: -45px;
+        gap: 12px;
+    }
+
+    .candle {
+        width: 10px;
+        height: 40px;
+    }
+
+    .flame {
+        width: 18px;
+        height: 28px;
+    }
+
+    /* Letter Container */
+    .letter-scroll {
+        width: 60px;
+        height: 200px;
+    }
+
+    .letter-scroll.opened {
+        width: 90vw;
+        max-width: 400px;
+        height: 450px;
+    }
+
+    .letter-content {
+        padding: 20px 25px;
+    }
+
+    .letter-content h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .letter-content p {
+        font-size: 12px;
+        line-height: 1.4;
+        margin: 6px 0;
+    }
+
+    .letter-content .signature {
+        margin-top: 12px;
+        font-size: 14px;
+    }
+
+    .letter-ribbon {
+        width: 140px;
+    }
+
+    .ribbon-text {
+        font-size: 12px;
+    }
+
+    /* Warning Text */
+    .warning-text {
+        top: 60px;
+        width: 90%;
+    }
+
+    .warning-content {
+        padding: 10px 20px;
+        font-size: 12px;
+        border-radius: 30px;
+    }
+
+    /* Gift Box */
+    .gift-box {
+        width: 140px;
+        height: 140px;
+    }
+
+    .gift-lid {
+        height: 50px;
+    }
+
+    .gift-body {
+        height: 90px;
+    }
+
+    .gift-bow {
+        width: 40px;
+        height: 25px;
+    }
+
+    .gift-bow::before,
+    .gift-bow::after {
+        width: 35px;
+        height: 35px;
+    }
+
+    .gift-bow-knot {
+        width: 16px;
+        height: 16px;
+    }
+
+    .gift-ribbon-v {
+        width: 15px;
+    }
+
+    .gift-ribbon-h {
+        height: 15px;
+    }
+
+    .gift-box-text {
+        font-size: 16px;
+        bottom: 60px;
+    }
+
+    /* Couple Emojis */
+    .couple-emoji {
+        font-size: 40px;
+    }
+
+    .couple-emoji.left {
+        left: 15%;
+    }
+
+    .couple-emoji.right {
+        right: 15%;
+    }
+
+    .couple-hearts .heart {
+        font-size: 20px;
+    }
+
+    /* Final Couple GIF */
+    .final-couple-gif {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .final-couple-gif img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .love-text {
+        font-size: 36px;
+        letter-spacing: 8px;
+        margin-bottom: 20px;
+    }
+
+    /* Table */
+    .table {
+        width: 280px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body::after {
+        font-size: 16px;
+        letter-spacing: 10px;
+    }
+
+    .start-button {
+        font-size: 24px;
+        padding: 15px 30px;
+    }
+
+    .birthday-text {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+
+    .tier-1 {
+        width: 160px;
+        height: 65px;
+    }
+
+    .tier-2 {
+        width: 120px;
+        height: 60px;
+    }
+
+    .candles-holder {
+        top: -35px;
+        gap: 10px;
+    }
+
+    .candle {
+        width: 8px;
+        height: 35px;
+    }
+
+    .flame {
+        width: 15px;
+        height: 24px;
+    }
+
+    .letter-scroll.opened {
+        width: 90vw;
+        height: 400px;
+    }
+
+    .letter-content {
+        padding: 15px 20px;
+    }
+
+    .letter-content h2 {
+        font-size: 18px;
+    }
+
+    .letter-content p {
+        font-size: 11px;
+    }
+
+    .letter-content .signature {
+        font-size: 13px;
+    }
+
+    .warning-content {
+        font-size: 11px;
+        padding: 8px 16px;
+    }
+
+    .gift-box {
+        width: 120px;
+        height: 120px;
+    }
+
+    .gift-lid {
+        height: 40px;
+    }
+
+    .gift-body {
+        height: 80px;
+    }
+
+    .gift-box-text {
+        font-size: 14px;
+        bottom: 50px;
+    }
+
+    .final-couple-gif img {
+        max-width: 250px;
+    }
+
+    .love-text {
+        font-size: 28px;
+        letter-spacing: 6px;
+    }
+
+    .table {
+        width: 220px;
+        height: 12px;
+    }
+}
+
+@media screen and (max-height: 700px) and (orientation: landscape) {
+    .birthday-text {
+        font-size: 36px;
+    }
+
+    .tier-1 {
+        width: 180px;
+        height: 70px;
+    }
+
+    .tier-2 {
+        width: 140px;
+        height: 65px;
+    }
+
+    .letter-scroll.opened {
+        height: 380px;
+    }
+}
